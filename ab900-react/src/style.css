@@ -1,0 +1,30 @@
+﻿body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+.topnav {
+  display: flex;
+  gap: 20px;
+  background: #4f46e5;
+  padding: 15px;
+}
+.topnav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.page {
+  padding: 40px;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
